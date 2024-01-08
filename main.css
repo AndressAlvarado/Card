@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ff3867 ,  #ffc873 ,  #d37ec6);
+}
+
+.card{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    margin: 25px;
+    border: solid black 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
+header {
+    background-image: url(images/Teclado\ \(1\).png);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #888888;
+    margin-bottom: 30px;
+    
+}
+header svg{
+    width: 128px;
+    height: 128px; 
+    fill: #2d7cbf;
+    stroke: #888888;
+    position: relative;
+    top: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section p{
+    margin: 15px 15px 30px 15px;
+}
+section button {
+    background: none;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+    border-color: #2d7cbf;
+    color: #2d7cbf;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 1em;
+}
+footer div {
+    padding: 1% 3em 1% 3em;
+    border: 1px solid #a05d5d;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    margin: 5px;
+}
